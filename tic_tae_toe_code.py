@@ -96,7 +96,7 @@ def gameplay(players_names):
     players_dict = {starting_player: player_mark}
     second_player = players_names[1]
 
-    if player_mark == 'x':
+    if player_mark.lower() == 'x':
         second_player_mark = 'O'
 
     else:
